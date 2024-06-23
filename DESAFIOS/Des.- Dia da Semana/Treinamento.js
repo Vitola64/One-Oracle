@@ -18,9 +18,10 @@ else {
     alert ('Tenha uma boa semana, ' + nome + '!')
 }
 
+console.log (`Nome: ${nome}`)
+console.log (`Dia: ${DiaHoje}`)
 console.log ('se o dia de hoje for sábado --> ', sabado == DiaHoje)
 console.log ('se o dia de hoje for domingo --> ', domingo == DiaHoje)
 console.log ('se o dia de hoje não for sabado nem domingo --> ', sabado !== DiaHoje && domingo !== DiaHoje)
-
 
 // Apanhei um pouco para fazer esse desafio, adimito ter pedido ajuda ao ChatGPT, mas me esforcei ao máximo para fazer por conta própria (Usei ChatGPT somente para corrigir bugs que eu não consegui resolver.)
